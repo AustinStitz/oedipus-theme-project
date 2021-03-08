@@ -1,1 +1,15 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
 
+.slant {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  width: 100%;
+  min-height: 50 vh;
+}
+.slant-top {
+  -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+}
